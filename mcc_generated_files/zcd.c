@@ -89,6 +89,8 @@ void ZCD_ISR(void) {
     if(channel8==1){
         LATC7 = 1;
     }
+    
+    
     __nop();
     __nop();
 
